@@ -32,23 +32,22 @@ if selected == "Reservar":
         hora = st.time_input("Hora")
         servicio = st.selectbox(
             "Servicio", ["Corte de pelo", "Afeitado", "Corte de barba", "Corte de pelo y barba", "Peinados", "Tratamientos capilares", "Coloracion", "Masajes"])
-        
+
     with C2:
         telefono = st.text_input("Telefono")
         mail = st.text_input("Email")
         comentarios = st.text_area("Comentarios")
 
-    
     enviar = st.button("Reservar Cita")
-    
+
     if enviar:
 
         if nombre == "":
-                st.warning("Por favor ingresa tu nombre")
+            st.warning("Por favor ingresa tu nombre")
         elif telefono == "":
-                st.warning("Por favor ingresa tu telefono")
+            st.warning("Por favor ingresa tu telefono")
         else:
-                st.success("Su reserva ha sido correctamente enviada")
+            st.success("Su reserva ha sido correctamente enviada")
 
 
 # VER CITAS
@@ -112,9 +111,9 @@ if selected == "Servicios":
     servicios.text("Tratamientos capilares - ")
     servicios.text("Coloracion - ")
     servicios.text("Masajes - ")
-     
+
     with col2:
-         precios = st.container()
+        precios = st.container()
     precios.subheader("Precios")
     precios.text("$15")
     precios.text("$10")
@@ -125,9 +124,8 @@ if selected == "Servicios":
     precios.text("$40")
     precios.text("$50")
 
-    
     with col3:
-        imagen = st.container() 
+        imagen = st.container()
     imagen.subheader("Galeria de Servicios")
 
     imagen.image("assets/barba.jpg")
@@ -137,4 +135,3 @@ if selected == "Servicios":
     servicios.text("Consulta con nuestro equipo para servicios personalizados")
 
 # backend
-
