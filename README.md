@@ -1,7 +1,7 @@
-"# App.Barberia-en-Streamlit" 
-Proyecto Realizado integramente en Python, conal libreria Streamlit. 
-Me parecio muy facil e intuitivo de usar, no la conocia, pero siguiendo un tutorail, y haciendo mis modificaciones de estilo y diseño.
-Creo que quedo un producto muy interesante y facil de usar.
+# App.Barberia-en-Streamlit" 
+Proyecto Realizado integramente en Python, con Streamlit. 
+Me parecio muy facil e intuitivo de usar, no la conocia, pero siguiendo un tutorial, y haciendo mis modificaciones de estilo y diseño.
+El resultado final es un producto muy interesante y facil de usar.
 
 #Pagina principal de reservas
 <img width="829" height="848" alt="image" src="https://github.com/user-attachments/assets/778d6e90-8d00-420a-befe-fb1f6383e310" />
